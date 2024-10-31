@@ -1,0 +1,110 @@
+/* Write CSS here */
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.home-watch {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+  background-position: right;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 30px;
+  color: #333333;
+  text-align: center;
+  width: 55%;
+}
+.image-timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 40px;
+}
+.watch-image {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+.stopwatch-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+}
+.time-text {
+  font-size: 45px;
+}
+.btn {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+  width: 50px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.text {
+  color: #333333;
+}
+.start-btn {
+  background-color: #1db05f;
+}
+.stop-btn {
+  background-color: #ef0d36;
+}
+.reset-btn {
+  background-color: #eaa800;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .home-watch {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+  }
+  .heading {
+    font-size: 45px;
+  }
+  .stopwatch-container {
+    width: 50%;
+  }
+  .main-container {
+    align-items: flex-start;
+    padding: 20px;
+    width: 80%;
+  }
+  .watch-image {
+    width: 36px;
+  }
+  .text {
+    font-size: 24px;
+    align-self: center;
+  }
+  .time-text {
+    font-size: 65px;
+  }
+  .btn {
+    width: 60px;
+    font-size: 15px;
+    padding: 8px;
+  }
+  .stopwatch-container {
+    padding: 20px;
+  }
+}
