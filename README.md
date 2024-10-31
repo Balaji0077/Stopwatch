@@ -1,4 +1,4 @@
-<h1> Stopwatch </h1>
+<h1 style="text-align:center"> Stopwatch Application</h1>
 
 <br/>
 <div style="text-align: center;">
